@@ -7,5 +7,5 @@ workflows:
     jobs:
         - katalon-studio/run:
                 version: "latest"
-          command_arguments: 'katalonc.sh -statusDelay=30 -retry=0 -projectPath="/root/project/TcircleCI-orb-Demo.prj" -testSuitePath="Test Suites/Sanity Test/Sanity Test Execution" -executionProfile=“default” -browserType="Chrome (headless)" -apiKey=9ae2eb91-3c45-41bc-8eb9-a8a35f6c2dca'
+          command_arguments: 'katalonc.sh -statusDelay=30 -retry=0 -projectPath="/root/project/circleCI-orb-Demo.prj" -testSuitePath="Test Suites/Sanity Test/Sanity Test Execution" -executionProfile=“default” -browserType="Chrome (headless)" -apiKey=9ae2eb91-3c45-41bc-8eb9-a8a35f6c2dca'
           
