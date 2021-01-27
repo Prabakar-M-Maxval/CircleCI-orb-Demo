@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test case 1</description>
+   <name>mvsl_CI-03</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>38df1d91-15b6-4d8c-8c5d-20442a175548</testCaseGuid>
+</TestCaseEntity>
