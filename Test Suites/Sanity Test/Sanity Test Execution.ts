@@ -29,4 +29,10 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/mvsl_CI-02</testCaseId>
    </testCaseLink>
+   <testCaseLink>
+      <guid>10412708-ec43-4286-b2d1-fa7d6cd6102e</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/mvsl_CI-04</testCaseId>
+   </testCaseLink>
 </TestSuiteEntity>
