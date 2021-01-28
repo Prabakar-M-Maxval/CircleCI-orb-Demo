@@ -19,4 +19,5 @@ import internal.GlobalVariable as GlobalVariable
 println ("Execute mvsl_CI-04")
 println ("End of Execution")
 println ("mvsl_CI-04 - PASS")
+println ("checkout")
 
