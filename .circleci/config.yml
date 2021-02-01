@@ -1,6 +1,6 @@
 orbs: 
   katalon-studio: katalon/katalon-studio@23.0.2 #Executing Katalon tests with CircleCI CI/CD pipeline with Katalon Orb
-  jira: circleci/jira@1.0.2 #eports the status of builds and deployments in Jira
+ # jira: circleci/jira@1.0.2 #eports the status of builds and deployments in Jira
 version: 2.1
 workflows: 
   build: 
@@ -10,4 +10,4 @@ workflows:
           command_arguments: "-browserType='Chrome' -retry=0 -statusDelay=15 -testSuitePath='Test Suites/Sanity Test/Sanity Test Execution'"
           version: latest
           post-steps:
-          - jira/notify #to send status to the Jira development panel
+         # - jira/notify #to send status to the Jira development panel
