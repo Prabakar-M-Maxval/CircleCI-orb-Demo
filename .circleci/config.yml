@@ -3,7 +3,8 @@ orbs:
  # jira: circleci/jira@1.0.2 #eports the status of builds and deployments in Jira
 version: 2.1
 workflows: 
-  build: 
+  build_and_test: 
+  
     jobs: 
       - 
         katalon-studio/run: 
