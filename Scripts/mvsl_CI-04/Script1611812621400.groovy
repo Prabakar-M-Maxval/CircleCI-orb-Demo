@@ -22,4 +22,5 @@ println ("mvsl_CI-04 - PASS")
 println ("checkout")
 println("test")
 println ("test1")
+println ("test2")
 
